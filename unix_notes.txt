@@ -85,6 +85,8 @@ what done in console may go in the same day ,log files may contain all informati
 log files will be configured by the developer
 testers can send the log files with errors and issues got in our project  to the developer to fix the issue
 for viewing the log files we can access the server using putty
+
+more commands
   
 	
 

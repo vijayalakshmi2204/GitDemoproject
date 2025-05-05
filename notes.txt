@@ -1,0 +1,12 @@
+
+Git commands
+Basic 
+
+1.Git init  – to create a git repo
+Create files
+2.git  status – returns the status of files – untracked,tracked,committed
+Now the status is untracked
+3.git add .
+   git add .*
+   git add -a
+   git add a.txt b.txt
