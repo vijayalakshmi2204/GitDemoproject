@@ -10,3 +10,4 @@ Now the status is untracked
    git add .*
    git add -a
    git add a.txt b.txt
+   git config user.name ""
