@@ -1,0 +1,92 @@
+Unix is  free operating system  -->ubuntu,linux
+most of the servers are written in Unix
+windows             				unix 
+1CLI(command-line interface)    		Graphical User Interface
+2.high compatabilty				less compatabilty
+3.not open source				open source
+4.vulnerable to hackers				not vulnerable to hackers
+5.Proprietary commercial software license	GPL (GNU General Public License) license
+6.cost						no cost
+7.Micro-kernel					Monolithic kernel
+8.no						OS with military-grade encryption?
+
+Ken Thompson and Dennis Ritchie began developing Unix in 1969 at AT&T's Bell Labs research center.
+
+web server vs application server
+web server
+1A web server primarily delivers static content like HTML pages and images, focusing on fast delivery
+ 2web server serves static files
+3.Servers:Apache HTTP Server, Nginx, Microsoft IIS
+4.fast
+
+application server
+1.handles dynamic content by executing business logic and interacting with databases, generating customized responses based on user input; 
+2.application server runs the logic behind a web application. 
+3.Apache Tomcat, JBoss, IBM WebSphere, Oracle WebLogic 
+4.slow
+
+Note:
+1.a web server acts as the first point of contact, receiving HTTP requests and forwarding dynamic content requests to an application server which then generates the response.
+2.connect one machine to another in a same network:
+	windows to windows---->Remote De3sktop Connection(same network)
+	windows to linux----->use putty(another network)
+
+download and install Cygwin for windows	
+terminal--->
+commands
+1.pwd-->present working directory
+2.ls-->gives list of files and folders
+ls -lt-->long list sorted from new to old  ls -ltr  -->long list sorted from  old to new ( long list with read/write permissions of the user)
+drwxr-xr-x --->"d" represents directory
+-rwxr-xr-x ---->represents file
+3.mkdir -->create a new folder or directory
+4.clear -->clear the command prompt 
+5.touch -->create an empty file or to update the timestamp of existing file
+	->touch filename.txt  (create a new file if not exist earlier)
+				(create a new timestamp if  file already exists)
+	-->touch filename1.txt filename1.txt filename2.txt (creates multiple files)
+	-->touch -t 202501171200.00 filename.txt (create a specific timestamp)
+	-->touch -c filename2.txt(updates timestamp if filename2.txt already exists)
+	-rw-r--r-- 1 prakr prakr              0 Jan 17 00:46 float.txt
+	  -rw-r--r--  ==>no d so it is not a directory but file , read write permissions of a user
+			(rw-owner of the file(o)
+			 r-owner of the group(g)
+			 r-others(o))
+	  1	      ==> number of links
+	prakr	      ==>owner name
+	prakr		==>owner group
+	0             ==>file size
+	Jan 17 00:46  ==>date and time at which the file created
+	float.txt   ==>file name
+
+values for operations
+read- 4
+write - 2
+execute -1
+-rw-r--r-- 
+644 is the numeric mode of  permission of this file
+
+chmod is to change the file permissions of the file
+eg --> chmod 664 float txt  ---> will give read write permissions to the group
+6.vi -->open a file,view the contents,write in to the file and save the contents of the file
+   vi  numbers.txt
+   press insert - write contents - esc :wq to save
+   vi  numbers.txt
+	show the contents  of the file inside the file
+7.cat numbers.txt
+  show the contents  of the file in the terminal itself
+8.
+
+why testers need unix?
+web server and application serber are installed in unix machines
+log files are written in unix
+log files contains all the actions , transactions and operations done in your project alomg with timestamp
+what done in console may go in the same day ,log files may contain all information that happened 20 to 30 days before
+log files will be configured by the developer
+testers can send the log files with errors and issues got in our project  to the developer to fix the issue
+for viewing the log files we can access the server using putty
+  
+	
+
+
+

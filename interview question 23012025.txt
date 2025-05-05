@@ -1,0 +1,102 @@
+interview question 23/01/2025
+
+Agile
+-velocity chart?
+-burn down chart?
+-what is agile
+-how it is different from traditional
+-test plan?
+-how do you handle changing the requirements
+-dod and dor
+-
+SQL
+1.sql
+2.sql commands-ddl,dml,dql,tcl
+3.truncate and delete drop
+4.datatypes
+5.char and varchar
+6.start with 'a' like
+7.doplicate rows?how to eliminate rows--distinct
+8.between and in
+9.what db languages
+
+java
+1.jdk,jre,jvm
+2.this and super
+3.access specifier
+4.fibonacci series-algorithm
+5.iterations
+6.
+
+unix
+
+1.piping
+2.cmd to open log files
+3.file permissions-
+4cmp and diff
+5terminate the process-kill
+
+selenium
+1.selenium?
+2.components of selemium
+3.screenshot in selenium
+4.automate tables in selenium
+5.
+
+testing
+1.run failed testcases
+2.use selenium with testing
+3.logs in testing
+4.
+5.parallel testing in testing
+6.before test and before method
+7.
+
+Jenkins
+version control - continuous integration
+backup and copy files in Jenkins
+
+cucumber 
+option tag
+scenario outline
+background
+features
+tdd and bdd
+
+api testing
+soap and rest api
+put and post method
+response code
+endpoints
+content type and token 
+authentication in api
+
+apm mobile testing
+1.apm
+2.desired capabilities
+3.selenium and Appium
+4.how do you test push notification in Appium
+
+maven
+1.artifact id and group id
+2.
+
+git
+1.git commands
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
